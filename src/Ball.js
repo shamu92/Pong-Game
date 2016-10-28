@@ -4,8 +4,8 @@ export default class Ball {
         this.x = 150; // random x
         this.y = 75; // random y
         this.ballReset()
-        this.vy = 1; //Math.floor(Math.random() * 12 - 6); // y direction
-        this.vx = 1; //(7 - Math.abs(this.vy)); // x direction
+        this.vy = Math.floor(Math.random() * 12 - 6); // y direction
+        this.vx = (7 - Math.abs(this.vy)); // x direction
         this.radius = 6;
     }
 
@@ -18,7 +18,7 @@ export default class Ball {
     paddleCollision(p1, p2) {
         if (this.vx > 0) {
 
-            const inRightEnd = this.x >= p2.x;
+            const inRightEnd = this.x >= p2.x - p2.width;
 
             if (inRightEnd) {
                 if (this.y >= p2.y + this.radius && this.y <= (p2.y + p2.height)) {
@@ -27,7 +27,7 @@ export default class Ball {
             }
 
         } else {
-            const inLeftEnd = this.x <= p1.x + p1.width;
+            const inLeftEnd = this.x <= p1.x + p1.width * 2;
 
             if (inLeftEnd) {
                 if (this.y >= p1.y - this.radius && this.y <= (p1.y + p1.height)) {
@@ -47,14 +47,14 @@ export default class Ball {
     ballReset() {
         this.x = 150
         this.y = 75
-        this.vy = (Math.floor(Math.random() * 12 - 6)); // y direction
-        // this.vx = (7 - Math.abs(this.vy));
+            // y direction
+            // this.vx = (7 - Math.abs(this.vy));
         this.vx *= -1
     }
 
     point() {
         if (this.x >= 300 || this.x <= 0) {
-
+            this.vy
             this.ballReset()
 
         }
