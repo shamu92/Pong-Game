@@ -6,7 +6,7 @@ export default class Ball {
         this.ballReset()
         this.vy = 1; //Math.floor(Math.random() * 12 - 6); // y direction
         this.vx = 1; //(7 - Math.abs(this.vy)); // x direction
-        this.radius = 5;
+        this.radius = 6;
     }
 
     drawBall(context) {
