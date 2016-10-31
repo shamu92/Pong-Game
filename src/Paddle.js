@@ -2,17 +2,13 @@ export default class Paddle {
     constructor(boardHeight, x, color, keys) {
         this.width = 5;
         this.height = 50;
-        this.speed = 5;
+        this.speed = 15;
         this.color = color;
         this.x = x;
         this.y = (boardHeight / 2) - (this.height / 2);
         this.keys = keys;
         console.log(this.keys.up)
         document.addEventListener('keydown', event => this.keyListener(event));
-    }
-
-    wallBounce() {
-
     }
     keyListener(event) {
         switch (event.keyCode) {
