@@ -15,7 +15,8 @@ export default class Board {
         context.stroke();
     }
     drawBoard(context) {
-        context.fillStyle = 'blue'
+        context.fillStyle = 'url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKxVZhP9zVOcuL2ZWniZPk3BB_DIywl9gI-6lCu9J1Q0KZCW3S)';
+
         context.fillRect(0, 0, this.width, this.height)
     }
     render(context) {
