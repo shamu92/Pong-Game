@@ -77,6 +77,8 @@ h1 {
    height: 75%;
    margin: 20px auto;
    width: 75%;
+   background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKxVZhP9zVOcuL2ZWniZPk3BB_DIywl9gI-6lCu9J1Q0KZCW3S);
+   background-size:cover;
 }
 .players {
    display: inline-flex;

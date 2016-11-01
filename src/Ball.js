@@ -32,8 +32,8 @@ export default class Ball {
             if (inLeftEnd) {
                 if (this.y >= p1.y - this.radius && this.y <= (p1.y + p1.height)) {
                     this.vx *= -1;
-                    var ping = new Audio('../sounds/pong-02.wav')
-                    ping.play()
+                    var pong = new Audio('../sounds/pong-02.wav')
+                    pong.play()
                 }
             }
         }
@@ -41,8 +41,8 @@ export default class Ball {
     ballBounce() {
         if (this.y <= 0 + this.radius || this.y >= 150 - this.radius) {
             this.vy *= -1
-            var ping = new Audio('../sounds/pong-03.wav')
-                    ping.play()
+            var pang = new Audio('../sounds/pong-03.wav')
+            pang.play()
         }
     }
     ballReset() {

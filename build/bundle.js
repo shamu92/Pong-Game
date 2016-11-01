@@ -99,7 +99,7 @@
 
 
 	// module
-	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n   margin: 0;\n   padding: 0;\n   border: 0;\n   font-size: 100%;\n   font: inherit;\n   vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n   display: block;\n}\nbody {\n   line-height: 1;\n}\nol, ul {\n   list-style: none;\n}\nblockquote, q {\n   quotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n   content: '';\n   content: none;\n}\ntable {\n   border-collapse: collapse;\n   border-spacing: 0;\n}\n\n/* Game Styles */\n\n@font-face {\n    font-family: 'PressStart2P Web';\n    src: url(" + __webpack_require__(4) + ");\n    src: url(" + __webpack_require__(4) + "?#iefix) format('embedded-opentype'),\n         url(" + __webpack_require__(5) + ") format('woff2'),\n         url(" + __webpack_require__(6) + ") format('woff'),\n         url(" + __webpack_require__(7) + ") format('truetype'),\n         url(" + __webpack_require__(8) + "#press_start_2pregular) format('svg');\n    font-weight: normal;\n    font-style: normal;\n}\nbody {\n   font-family: 'PressStart2P Web', monospace;\n   color:sandybrown;\n   margin: 0 auto;\n   text-align: center;\n   background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSNgaWhN-1A-msHoxYdtbzqVXklkF1TyHvZwKs6IhuRPX2xY-v8Yw);\n   background-size:cover;\n}\nh1 {\n   margin-top: 20px;\n   font-size:24px;\n}\n#game {\n   display: block;\n   height: 75%;\n   margin: 20px auto;\n   width: 75%;\n   background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKxVZhP9zVOcuL2ZWniZPk3BB_DIywl9gI-6lCu9J1Q0KZCW3S);\n   background-size:cover;\n   background: \n}\n.players {\n   display: inline-flex;\n   justify-content: space-between;\n   text-align: center;\n   width: 60%;\n}\n", ""]);
+	exports.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n   margin: 0;\n   padding: 0;\n   border: 0;\n   font-size: 100%;\n   font: inherit;\n   vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n   display: block;\n}\nbody {\n   line-height: 1;\n}\nol, ul {\n   list-style: none;\n}\nblockquote, q {\n   quotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n   content: '';\n   content: none;\n}\ntable {\n   border-collapse: collapse;\n   border-spacing: 0;\n}\n\n/* Game Styles */\n\n@font-face {\n    font-family: 'PressStart2P Web';\n    src: url(" + __webpack_require__(4) + ");\n    src: url(" + __webpack_require__(4) + "?#iefix) format('embedded-opentype'),\n         url(" + __webpack_require__(5) + ") format('woff2'),\n         url(" + __webpack_require__(6) + ") format('woff'),\n         url(" + __webpack_require__(7) + ") format('truetype'),\n         url(" + __webpack_require__(8) + "#press_start_2pregular) format('svg');\n    font-weight: normal;\n    font-style: normal;\n}\nbody {\n   font-family: 'PressStart2P Web', monospace;\n   color:sandybrown;\n   margin: 0 auto;\n   text-align: center;\n   background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSNgaWhN-1A-msHoxYdtbzqVXklkF1TyHvZwKs6IhuRPX2xY-v8Yw);\n   background-size:cover;\n}\nh1 {\n   margin-top: 20px;\n   font-size:24px;\n}\n#game {\n   display: block;\n   height: 75%;\n   margin: 20px auto;\n   width: 75%;\n   background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKxVZhP9zVOcuL2ZWniZPk3BB_DIywl9gI-6lCu9J1Q0KZCW3S);\n   background-size:cover;\n}\n.players {\n   display: inline-flex;\n   justify-content: space-between;\n   text-align: center;\n   width: 60%;\n}\n", ""]);
 
 	// exports
 
@@ -553,7 +553,8 @@
 	    }, {
 	        key: 'drawBoard',
 	        value: function drawBoard(context) {
-	            context.fillStyle = 'blue';
+	            context.fillStyle = 'brown';
+
 	            context.fillRect(0, 0, this.width, this.height);
 	        }
 	    }, {
@@ -759,8 +760,8 @@
 	                if (inLeftEnd) {
 	                    if (this.y >= p1.y - this.radius && this.y <= p1.y + p1.height) {
 	                        this.vx *= -1;
-	                        var ping = new Audio('../sounds/pong-02.wav');
-	                        ping.play();
+	                        var pong = new Audio('../sounds/pong-02.wav');
+	                        pong.play();
 	                    }
 	                }
 	            }
@@ -770,8 +771,8 @@
 	        value: function ballBounce() {
 	            if (this.y <= 0 + this.radius || this.y >= 150 - this.radius) {
 	                this.vy *= -1;
-	                var ping = new Audio('../sounds/pong-03.wav');
-	                ping.play();
+	                var pang = new Audio('../sounds/pong-03.wav');
+	                pang.play();
 	            }
 	        }
 	    }, {
