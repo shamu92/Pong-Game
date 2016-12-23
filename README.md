@@ -28,5 +28,5 @@ A basic pong game developed using JavaScript ES6 and is intended to demonstrate 
 # References
 HTML Canvas - http://www.html5canvastutorials.com/
 
-#####
+###
 Created by: Aleksandr Altshteyn
