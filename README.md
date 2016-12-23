@@ -1,16 +1,16 @@
 # Pong Game
 
-A basic pong game using HTML5 Canvas.
+![Screen shot of pong game](https://github.com/shamu92/Pong-Game/blob/master/pong_ss.png "pong game screen shot")
 
-## Setup
+# Summary
+A basic pong game developed using JavaScript ES6 and is intended to demonstrate the use of classes and object-oriented programming with JavaScript.
 
-##### Install
 
-`> npm i`
-
-##### Run
-
-`> npm start`
+# Technologies and Tools Used:
+* HTML Canvas
+* JavaScript ES5 & ES6
+* Model-View-Controller design pattern
+* Webpack
 
 ## Keys
 
@@ -23,5 +23,8 @@ A basic pong game using HTML5 Canvas.
 * ▲ : up
 * ▼: down
 
+# References
+HTML Canvas - http://www.html5canvastutorials.com/
+
 #####
-Created by Sasha Altshteyn
+Created by: Aleksandr Altshteyn
