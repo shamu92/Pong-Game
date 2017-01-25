@@ -1,6 +1,6 @@
 # Pong Game
 
-### https://shamu92.github.io/Pong-Game/
+### https://shamu92.github.io/pong-game/
 
 ![Screen shot of pong game](https://github.com/shamu92/Pong-Game/blob/master/pong_ss.png "pong game screen shot")
 
